@@ -1,0 +1,33 @@
+{
+  "production_build": "passed",
+  "automated_tests": {
+    "passed": 21,
+    "failed": 0
+  },
+  "certificate_scans": 7,
+  "original_scans": "preserved",
+  "browser_checks": [
+    "desktop gallery",
+    "technical filter returns 3 records",
+    "full-size image",
+    "next document",
+    "zoom",
+    "Escape closes viewer",
+    "tablet two-column layout",
+    "mobile single-column layout and no horizontal overflow",
+    "mobile document viewer",
+    "admin preview certificate list",
+    "research desktop layout",
+    "research mobile/tablet layout",
+    "mobile research no horizontal overflow",
+    "team disclosure expands",
+    "paper read/download href and download attribute",
+    "black hole animated Canvas fallback rendered on desktop and mobile",
+    "mobile viewport has no horizontal overflow",
+    "larger colourful galaxy and foreground black hole on desktop",
+    "same complete animated scene on mobile"
+  ],
+  "live_services": "Supabase auth/storage and Netlify deployment require user configuration; database policies tested with PGlite, not a live Supabase project.",
+  "thesis": "Original PDF byte-preserved; Figure 5.15 and Table 4.1 visually inspected. Title and date from title page; five authors credited.",
+  "graphics_verification": "The full Canvas galaxy/black-hole animation was visually checked on desktop and mobile. Mobile document width equals viewport width; no horizontal overflow. Reduced-motion and visibility handling reviewed in code. WebGL is no longer required."
+}
